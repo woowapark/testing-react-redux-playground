@@ -5,6 +5,7 @@ import { MOCK_PRODUCT } from './fixture';
 import Product from './components/Product';
 import cartReducer from './reducers/cartReducer';
 import { API_ENDPOINT } from './const/api';
+import { fetchProduct } from './actions/productAction';
 
 const mockNavigate = jest.fn();
 const mockDispatch = jest.fn();
